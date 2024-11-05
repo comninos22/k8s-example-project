@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+data:
+  MONGO_URI: "mongodb://root:example@mongo-service:27017"
+  REDIS_URI: "redis://redis-service:6379"
