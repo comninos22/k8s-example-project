@@ -4,6 +4,6 @@ metadata:
   name: mongo-service
 subsets:
   - addresses:
-      - ip: ${IP}
+      - ip: 55.2.33.111
     ports:
       - port: 27017
